@@ -1,72 +1,65 @@
-# Guía del profesor
+# Cómo acompañar la práctica
 
-## Resultado educativo
+La práctica está pensada para estudiantes que quieren emprender y apenas tienen experiencia con herramientas de programación. El objetivo es que aprendan a explicar lo que necesitan, tomar decisiones con ayuda de la IA y comprobar lo que reciben.
 
-El alumnado dirige a la IA para transformar una idea en un prototipo comprobable. Debe distinguir propuesta de decisión, generación de código de funcionamiento y prototipo de producto preparado para usuarios reales. No se busca aprender un framework en una hora.
+Trabajarán en cuatro equipos de cuatro personas. Dispondrán de 60 minutos para construir la aplicación. Las exposiciones se realizarán después y durarán dos minutos por equipo.
 
-Formato acordado: 16 estudiantes, 4 equipos de 4, 60 minutos efectivos y exposiciones después. Dos equipos por reto ayuda a comparar soluciones, pero cada equipo puede escoger. No necesita conocer el código para justificar usuario, stack, diseño, datos y pruebas.
+## Antes del día de clase
 
-## Antes de clase
+Envía el README a los alumnos y ayúdales a preparar sus cuentas y ordenadores. No des por hecho que conocen GitHub: conviene mostrar cómo crear una copia del proyecto y abrirla en Cursor. Cada equipo puede trabajar desde un ordenador, utilizando la cuenta propia de la persona que lo maneje.
 
-Enviar [PREPARACION.md](../PREPARACION.md) y pedir confirmación de equipo, copia del repo, capturas y prueba de Cursor Free. Recordar que la prueba no garantiza cuota para toda la sesión. No usar una cuenta Pro del profesor como evidencia de compatibilidad Free.
+Pídeles que traigan dos capturas de páginas web que les gusten y que sepan explicar por qué las han elegido. Las capturas no deben mostrar datos personales.
 
-Comprobar proyector, red y permisos de instalación de los ordenadores. Es conveniente que tengan runtimes disponibles si desean compararlos; no instalar un framework por adelantado. No exigir crear cuentas en proveedores de nube.
+Haz un ensayo con una cuenta que figure como Cursor Free y, si es posible, con un ordenador parecido a los que utilizarán los alumnos. Comprueba que el chat responde, que puede leer las instrucciones del proyecto y que admite las capturas. La cuenta gratuita tiene un límite de uso; el material está preparado para utilizarla, pero todavía falta comprobar el recorrido completo con una cuenta real.
 
-Revisar [CURSOR-FREE.md](../docs/CURSOR-FREE.md), ensayar el recorrido completo y registrar qué se ha comprobado realmente en [VALIDACION.md](VALIDACION.md). La edición inicial incorpora comprobaciones locales; el ensayo real dentro de Cursor Free requiere una cuenta y ordenador representativos.
+## Antes de empezar a contar los 60 minutos
 
-El repo del profesor debe ser público y plantilla. Cada equipo crea una copia independiente; no se necesitan permisos de escritura en el original ni gestionar 16 contribuyentes durante la sesión. El responsable puede invitar a sus compañeros a su copia si lo desea; durante la práctica basta un ordenador conductor y cuatro personas decidiendo. No compartir cuentas.
+Muestra cómo abrir la carpeta del proyecto, escribir en el chat y revisar los cambios que propone Cursor. Enseña también cómo seguir sus instrucciones para abrir la aplicación en el navegador. Si aparece la terminal, explica que es la ventana donde se ejecutan los comandos que permiten preparar o iniciar el programa.
 
-## Reparto de los 60 minutos
+Puedes enseñar una regla y la skill de diseño que incluye el proyecto. Explica que son instrucciones que hemos preparado para que Cursor trabaje de una forma más consistente. Los alumnos no tienen que configurarlas durante la práctica.
 
-| Minutos | Fase | Intervención útil del profesor |
-|---|---|---|
-| 00–06 | Producto | «¿Qué problema concreto y de quién?»; evitar añadir funciones |
-| 06–15 | Stack | «¿Qué renuncia aceptáis y por qué?»; exigir comparación y elección humana |
-| 15–22 | Diseño | «¿Qué decisión tomáis de cada referencia?»; pedir estados además de colores |
-| 22–28 | Arquitectura | «¿Dónde vive una reserva o un gasto y cómo vuelve después de recargar?» |
-| 28–35 | I1 | Asegurar app arrancada; ayudar a quitar complejidad innecesaria |
-| 35–46 | I2 | Pedir flujo principal, recarga y regla de negocio |
-| 46–53 | I3 | Comprobar resto del MVP, errores y diseño |
-| 53–60 | Auditoría | 3 min de pruebas, 1 de revisión y 3 de corrección/registro; congelar funciones nuevas |
+## Cómo acompañar a los equipos
 
-El temporizador empieza con el entorno preparado. Las exposiciones son después: 2 minutos por equipo (8 minutos), más preguntas. Reservar aproximadamente 12 minutos adicionales si se quiere una pregunta breve por equipo.
+El README recoge los seis ejercicios y sus tiempos orientativos. Reserva unos 30 minutos para construir y los últimos siete para revisar. Si una conversación se alarga demasiado, ayuda al equipo a cerrar una decisión que pueda explicar.
 
-## Por qué separar stack y arquitectura
+En los primeros ejercicios, pregunta quién utilizaría la aplicación y por qué han elegido unas herramientas concretas. Si repiten una palabra técnica sin entenderla, pídeles que se la hagan explicar a Cursor con un ejemplo de su aplicación.
 
-| Rol | Pregunta | Resultado | Límite |
-|---|---|---|---|
-| Asesor de stack | ¿Con qué tecnologías y por qué? | Alternativas, costes, límites y elección | No crea estructura ni instala |
-| Arquitecto | ¿Cómo organizamos lo elegido para cumplir el MVP? | Componentes, datos, persistencia y plan | No vuelve a elegir herramientas salvo incompatibilidad |
+Cuando trabajen en el diseño, pregunta qué les interesa de cada captura. Después, comprueba que puedan reconocer esas decisiones en las pantallas que construyan.
 
-La separación hace visible que elegir un framework no resuelve el diseño de la aplicación. No implica dos procesos paralelos ni dos entrevistas repetidas: el cuaderno hace el traspaso. Para Free ambos pueden ser roles secuenciales del mismo chat.
+Antes de programar, el equipo debe entender qué pantallas habrá y dónde se guardará la información. No necesita defender una arquitectura profesional; sí debe poder explicar, por ejemplo, qué ocurre con una reserva cuando se crea o se cancela.
 
-## Participación de los cuatro miembros
+Durante la construcción, procura que abran pronto una primera versión. Si al minuto 31 todavía no pueden verla en el navegador, ayúdales a resolver el bloqueo antes de pedir nuevas funciones. La construcción se ha dividido en tres pasos: preparar y abrir la primera versión (8 minutos), completar las funciones principales y guardar los datos (14 minutos), y corregir errores y detalles (8 minutos).
 
-Empezar con conducción de Cursor, criterio de producto/tecnología, pruebas y registro. Rotar tras producto, diseño y el primer incremento. No dejar que la persona con más experiencia opere y decida todo. Pedir a distintos miembros que expliquen una elección y una limitación. El cuaderno puede usar alias en un repo público.
+Anima a que cambien de persona al manejar el ordenador. Los cuatro deben participar en las decisiones y poder explicar alguna parte del trabajo. Cursor recogerá las decisiones en PROYECTO.md; basta con que el equipo revise ese archivo, sin rellenar otro cuaderno.
 
-## Intervenir sin decidir por ellos
+## Si algo se atasca
 
-- Si piden «¿cuál es el mejor stack?», devolver «¿mejor según qué dos criterios de vuestro caso?».
-- Si quieren backend solo porque parece profesional, preguntar qué requisito local lo necesita y qué aporta para el futuro.
-- Si eligen una solución solo de navegador, preguntar qué ocurriría con dos dispositivos; puede ser adecuada para el prototipo si reconocen el límite.
-- Si el agente instala antes de elegir, detenerlo y volver a la decisión; no dar por aceptada una propuesta por haberla ejecutado.
-- Si el diseño es genérico, pedir trazabilidad a las referencias y tres tokens concretos.
-- Si dicen «funciona», pedir una acción completa y una entrada inválida; ver recarga y estado persistente.
+Pide al equipo que cuente qué intentaba hacer y qué ha ocurrido. Ayúdale a comunicar el problema a Cursor antes de aceptar una reescritura completa o cambiar de tecnología.
 
-## Plan de ayuda ante bloqueos
+Si se agota el uso gratuito, guardad el trabajo y comprobad si otro miembro puede continuar desde su propio ordenador y su propia cuenta. No compartáis contraseñas ni creéis cuentas para evitar los límites. Si no podéis seguir con la IA, revisad lo construido y explicad qué ha quedado pendiente. No se exige pagar para terminar la práctica.
 
-Al minuto 35 debe haber una app abierta. Si falla, priorizar diagnóstico, entorno y eliminación justificada de dependencias. No rebajar silenciosamente el requisito de persistencia o las reglas de negocio. Si falta tiempo, declarar alcance incompleto en lugar de marcarlo como completo.
+## Revisión y exposición
 
-Si se agota la cuota, no forzar un pago. Guardar el trabajo y comprobar disponibilidad en las cuentas propias de los otros miembros, sin compartir credenciales ni crear cuentas para evadir límites. Si no hay disponibilidad, terminar revisión manual y presentar el estado y diagnóstico. Valorar las decisiones y pruebas que sí existen conforme a la rúbrica.
+Al minuto 53, deja de pedir funciones nuevas. Cada equipo debe realizar la prueba que aparece en su reto, recargar la página para comprobar que conserva los datos e intentar una acción que la aplicación deba rechazar. Después debe corregir el fallo más importante que haya encontrado y repetir esa prueba.
 
-No distribuir una aplicación ya resuelta en la rama inicial. Si el profesor quiere una demostración de reserva, prepararla en una copia independiente después de elegir su propio stack; distinguirla del trabajo del equipo.
+En la exposición, pide que enseñen la aplicación y expliquen una decisión y un problema encontrado. Si algo no funciona, deben decirlo. Una buena pregunta final es: «¿Qué tendríais que revisar antes de dejar que un cliente real la utilizara?».
 
-## Exposición y evaluación
+## Cómo evaluar
 
-Usar [DEMO.md](../plantillas/DEMO.md) y [RUBRICA.md](RUBRICA.md). Preguntas posibles: ¿qué propuso la IA y rechazasteis?, ¿qué cambiaría para tres usuarios simultáneos?, ¿cómo comprobasteis que no se pierden céntimos o se duplican reservas?, ¿qué fallo detectasteis probando?
+| Aspecto | Qué debe mostrar el equipo |
+|---|---|
+| La idea | Puede explicar quién usaría la aplicación y qué problema resolvería. |
+| Sus decisiones | Puede contar qué opciones valoró y por qué eligió una de ellas. |
+| El diseño | Ha creado una apariencia coherente a partir de sus referencias. |
+| El funcionamiento | Puede demostrar las funciones del reto y que los datos siguen ahí al recargar. |
+| La revisión | Ha probado un caso que podía fallar y sabe explicar lo que queda pendiente. |
 
-Cerrar el debate identificando una decisión de negocio pendiente de validación real y una tarea técnica necesaria antes de producción. No presentar el taller como una certificación de seguridad o cumplimiento normativo.
+Cada aspecto vale hasta dos puntos: cero si no se demuestra, uno si está conseguido en parte y dos si se demuestra con claridad. No premies la cantidad de código o las funciones añadidas si todavía falta lo básico. Encontrar y explicar un fallo también forma parte del aprendizaje.
 
-## Mantenimiento de futuras ediciones
+## Las instrucciones que lleva preparado el proyecto
 
-Revisar fuentes y planes; actualizar fecha y matriz de compatibilidad. Ejecutar el verificador y sus tests antes de publicar. El workflow solo valida el material: los tests de cada aplicación se acuerdan según el stack del equipo. Las modificaciones pedagógicas relevantes se reflejan en README.md, taller.json, ejercicios y guía para mantener tiempos y requisitos coherentes.
+El proyecto incluye tres especialistas para orientar a Cursor: uno ayuda a concretar la idea, otro acompaña las decisiones técnicas y otro revisa el resultado. La elección de herramientas y la organización de la aplicación se trabajan en momentos distintos, aunque las atienda el mismo asesor.
+
+También incluye dos reglas de trabajo y una skill para analizar las capturas. Cursor puede leer estas instrucciones dentro del chat principal; no es necesario que los alumnos aprendan a lanzar agentes separados.
+
+Antes de cada edición, comprueba las condiciones actuales de [Cursor Free](https://cursor.com/docs/models-and-pricing) y la documentación de [reglas](https://cursor.com/docs/rules), [agentes](https://cursor.com/docs/subagents) y [skills](https://cursor.com/docs/skills). La revisión documental anterior se hizo el 8 de noviembre de 2026; no sustituye al ensayo con una cuenta gratuita.

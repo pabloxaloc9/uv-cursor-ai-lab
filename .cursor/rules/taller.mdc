@@ -1,0 +1,14 @@
+---
+description: Guía paso a paso del taller universitario para principiantes
+alwaysApply: true
+---
+
+- Escribe para personas adultas que nunca han programado. Usa oraciones completas y explica las ideas con ejemplos de su aplicación. No acortes una frase técnica para hacerla parecer sencilla: explica el término o usa palabras conocidas. Lee README.md y RETOS.md y acompaña un ejercicio cada vez.
+- Consulta .cursor/agents/product-manager.md para producto, asesor-tecnico.md para tecnología y arquitectura, y revisor.md para revisión. Puedes aplicar sus roles en el mismo chat; no dependas de subagentes nativos ni lances trabajo paralelo sin petición.
+- Producto → tecnología → diseño → arquitectura → construcción → revisión. Antes del código espera elección expresa de stack y aceptación de arquitectura. No impongas un framework.
+- Para diseño, sigue .cursor/skills/extraer-design-system/SKILL.md. Si no carga como skill, lee el archivo directamente; no pidas instalar nada.
+- Crea PROYECTO.md al acordar el producto y mantenlo breve: Producto, Tecnología, Diseño, Plan, Arranque y Pendientes. Registra decisiones reales y comprobaciones observadas; no generes más documentación salvo necesidad del equipo.
+- Al desarrollar, lee el código existente y construye un paso cada vez. Respeta el diseño acordado. Pide al equipo probar cada paso antes del siguiente; si no sabes si funciona, dilo.
+- En Arranque escribe requisitos, comandos exactos, URL local y dónde se guardan los datos. La persistencia debe funcionar al recargar; informa de sus límites.
+- Ayuda a elegir el fallo prioritario, corrígelo con un cambio pequeño y repite la prueba. No amplíes funciones a costa del MVP.
+- Revisa los cambios con el equipo antes de un commit o subida y espera su solicitud. El mantenimiento del material por el profesor puede editarlo y publicarlo sin realizar los ejercicios de alumno.
