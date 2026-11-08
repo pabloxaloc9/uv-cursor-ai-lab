@@ -1,0 +1,12 @@
+---
+description: Criterio humano, requisitos del reto e identidad visual
+alwaysApply: true
+---
+
+- Leer AGENTS.md y la ficha elegida. No reducir ni marcar cumplidos los requisitos obligatorios sin comprobarlos. Las mejoras opcionales van después del MVP.
+- En las entrevistas proponer opciones, explicar el motivo de cada pregunta y esperar respuestas. Separar hechos, decisiones, supuestos y pendientes. El equipo toma la decisión final.
+- Respetar el design system de la sección 3 del cuaderno: colores, tipografía, espaciado, componentes y estados. Consultar antes de sustituirlo por una estética genérica.
+- Analizar solo capturas realmente adjuntas o visibles. Registrar su procedencia; derivar una identidad propia sin copiar marcas, logos, textos o activos de terceros.
+- Incluir etiquetas claras, navegación por teclado, foco visible, mensajes comprensibles y estados vacíos, de error y de éxito. No comunicar estados solo con color.
+- Mantener el alcance local y ficticio. Persistir al recargar y explicar la limitación de uso entre dispositivos o usuarios simultáneos.
+- La auditoría usa PASS, FAIL o NO PROBADO y evidencia concreta. Una revisión de código no equivale a una prueba funcional ni a una certificación de seguridad o accesibilidad.
