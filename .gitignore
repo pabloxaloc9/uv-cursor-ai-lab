@@ -1,0 +1,34 @@
+# Secretos: no se necesitan en este taller
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/secrets.json
+*.pem
+*.key
+
+# Entornos, dependencias y resultados generados
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.next/
+dist/
+build/
+coverage/
+.coverage
+playwright-report/
+test-results/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# Capturas ajenas: adjuntarlas al chat, no publicarlas por defecto
+referencias-privadas/

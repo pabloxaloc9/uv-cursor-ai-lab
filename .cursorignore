@@ -1,0 +1,20 @@
+# Reduce el acceso como contexto; no bloquea por sí solo terminal ni MCP
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/secrets.json
+*.pem
+*.key
+node_modules/
+.venv/
+venv/
+__pycache__/
+.next/
+dist/
+build/
+coverage/
+*.log
+*.sqlite
+*.sqlite3
+*.db
