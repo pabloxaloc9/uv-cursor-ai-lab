@@ -12,7 +12,9 @@ Este documento distingue el repositorio educativo, el entorno Cursor Free y las 
 | Inventario de entorno local | Material completo; Git, Node/npm y Python detectados; CLI de Cursor no detectada |
 | Revisión de ambos contratos de MVP | Flujos y casos definidos; ejemplos numéricos de Splitly consistentes con sus liquidaciones |
 | Ejecución dentro de Cursor Free | No realizada en este entorno; pendiente del ensayo previo del profesor |
-| Ejecución del workflow en GitHub | Pendiente de publicación; comandos equivalentes ejecutados localmente |
+| Ejecución del workflow en GitHub | PASS: ejecución [42520569692](https://github.com/pabloxaloc9/uv-cursor-ai-lab/actions/runs/42520569692), con verificador y tests correctos |
+| Integridad de la publicación | 47 archivos publicados; sus hashes coinciden con la versión local revisada, sin ausencias ni archivos adicionales |
+| Distribución | Repositorio público y marcado como plantilla para crear una copia independiente por equipo |
 
 El resultado no demuestra que un equipo termine su app en 60 minutos. Ese ajuste se contrasta en el ensayo de clase indicado abajo.
 
