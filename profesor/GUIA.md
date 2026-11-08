@@ -60,6 +60,8 @@ Cada aspecto vale hasta dos puntos: cero si no se demuestra, uno si está conseg
 
 El proyecto incluye tres especialistas para orientar a Cursor: uno ayuda a concretar la idea, otro acompaña las decisiones técnicas y otro revisa el resultado. La elección de herramientas y la organización de la aplicación se trabajan en momentos distintos, aunque las atienda el mismo asesor.
 
-También incluye dos reglas de trabajo y una skill para analizar las capturas. Cursor puede leer estas instrucciones dentro del chat principal; no es necesario que los alumnos aprendan a lanzar agentes separados.
+También incluye dos reglas de trabajo y una skill para trabajar el diseño. Esta última ayuda a analizar las capturas, decidir qué aprovechar de cada una y definir colores y componentes que se puedan reutilizar. Incluye criterios para BookFlow y Splitly y una herramienta que mide el contraste entre colores. Cursor se encarga de utilizar estos recursos; los alumnos solo tienen que explicar sus preferencias, decidir y comprobar el resultado. Si no está disponible Python 3 para medir el contraste, esa comprobación puede quedar pendiente sin bloquear el taller.
+
+Cursor puede leer estas instrucciones dentro del chat principal; no es necesario que los alumnos aprendan a lanzar agentes separados.
 
 Antes de cada edición, comprueba las condiciones actuales de [Cursor Free](https://cursor.com/docs/models-and-pricing) y la documentación de [reglas](https://cursor.com/docs/rules), [agentes](https://cursor.com/docs/subagents) y [skills](https://cursor.com/docs/skills). La revisión documental anterior se hizo el 8 de noviembre de 2026; no sustituye al ensayo con una cuenta gratuita.
