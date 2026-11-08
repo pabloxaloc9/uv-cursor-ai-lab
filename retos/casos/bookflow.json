@@ -1,0 +1,16 @@
+{
+  "descripcion": "Guion de aceptación para ejecutar en la app del equipo. No es un test conectado automáticamente al prototipo.",
+  "modelo": "Una plaza por servicio y franja, en un solo contexto de uso local.",
+  "servicio": "Servicio A",
+  "franja": "Una fecha futura a las 10:00",
+  "cliente": "Cliente A",
+  "secuencia": [
+    {"accion": "Estado inicial de la franja", "reservas_activas": 0, "disponible": true},
+    {"accion": "Crear una reserva", "reservas_activas": 1, "disponible": false},
+    {"accion": "Intentar duplicar la reserva", "reservas_activas": 1, "disponible": false},
+    {"accion": "Recargar en el mismo origen", "reservas_activas": 1, "disponible": false},
+    {"accion": "Cancelar la reserva", "reservas_activas": 0, "disponible": true},
+    {"accion": "Repetir la cancelación", "reservas_activas": 0, "disponible": true},
+    {"accion": "Recargar en el mismo origen", "reservas_activas": 0, "disponible": true}
+  ]
+}
