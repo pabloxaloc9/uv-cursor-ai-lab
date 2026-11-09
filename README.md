@@ -46,4 +46,4 @@ Al terminar, entregaréis vuestra copia del proyecto. Después tendréis dos min
 
 Usad siempre nombres y datos inventados. No peguéis contraseñas o claves de acceso en el chat. La aplicación solo necesita funcionar en vuestro ordenador y recordar los datos cuando recarguéis la página; no tenéis que publicarla en internet ni realizar pagos reales.
 
-[Información para el profesor](profesor/GUIA.md) · [Licencia MIT](LICENSE)
+
