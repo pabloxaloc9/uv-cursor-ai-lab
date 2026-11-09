@@ -1,6 +1,6 @@
 ---
 name: extraer-design-system
-description: Analizar capturas elegidas por el equipo, resolver diferencias entre referencias y construir una identidad visual propia con valores y componentes reutilizables. Usar al definir el diseño del prototipo, trasladarlo al código o revisar su coherencia y legibilidad. Incluye criterios de decisión y una herramienta local para medir contraste.
+description: Analizar capturas elegidas por el equipo, resolver diferencias entre referencias y construir una identidad visual propia con valores y componentes reutilizables. Usar al definir el diseño del prototipo, trasladarlo al código o revisar su coherencia y legibilidad. Incluye criterios específicos para BookFlow y Splitly.
 ---
 
 # De las referencias a una interfaz coherente
@@ -10,7 +10,7 @@ Trabaja con el producto y las decisiones de PROYECTO.md. Explica las propuestas 
 ## Sitúa el trabajo
 
 - Si todavía falta definir el producto, vuelve a ese ejercicio antes de diseñar.
-- Si estáis definiendo el diseño, sigue los pasos siguientes. Dedica aproximadamente un minuto a las referencias, dos al análisis, dos a la propuesta y su contraste y dos a los ajustes del equipo. No conviertas el ejercicio en un cuestionario largo.
+- Si estáis definiendo el diseño, sigue los pasos siguientes. Dedica aproximadamente un minuto a las referencias, dos al análisis, dos a la propuesta y dos a los ajustes del equipo. No conviertas el ejercicio en un cuestionario largo.
 - Si el diseño ya está aceptado, pasa a «Aplicar y revisar». Consulta lo acordado antes de volver a preguntar o proponer otra estética.
 
 ## 1. Entiende las referencias
@@ -36,13 +36,11 @@ Concreta los valores que se podrán reutilizar al programar:
 
 Los valores son una propuesta propia, aunque se inspiren en las referencias. No presentes estimaciones como datos extraídos con precisión. No escribas todavía la aplicación: primero hay que aceptar el diseño y completar el ejercicio de arquitectura.
 
-## 3. Mide la legibilidad de los colores
+## 3. Cuida la legibilidad
 
-Utiliza [scripts/contraste.py](scripts/contraste.py) si hay Python 3 disponible. Es una utilidad de esta skill, no una elección de tecnología para la aplicación. No requiere paquetes, conexión ni archivos de salida. Lee el apartado «Medir el contraste» de la referencia para preparar la entrada y entender sus límites.
+Propón textos que se distingan claramente de sus fondos, incluidas las etiquetas de botones y los mensajes de error. Evita texto claro sobre un color también claro. Si un color pedido dificulta la lectura, explica el problema y ofrece un ajuste para que el equipo decida.
 
-Comprueba al menos el texto principal y secundario sobre sus fondos, las etiquetas de los botones y los mensajes de estado. Incluye los bordes o indicadores que sean necesarios para reconocer controles y estados. Si una combinación no llega al umbral, ajusta la propuesta antes de presentarla como legible; explica cualquier cambio que afecte a un color pedido por el equipo.
-
-Si no puedes ejecutar la herramienta, indica qué queda por medir. No instales Python ni cambies de stack para superar este paso. No inventes resultados ni confundas un contraste correcto con una revisión completa de accesibilidad.
+Durante la construcción, pide comprobar esas combinaciones en la pantalla y recorrer los controles con Tab. No añadas una herramienta o instalación para este ejercicio. Distingue una comprobación visual de una medición de contraste: no inventes cifras ni declares accesibilidad completa.
 
 ## 4. Presenta y recoge la decisión
 
@@ -54,6 +52,6 @@ Pide al equipo que confirme o ajuste la propuesta y espera. No interpretes el si
 
 Empieza a programar cuando el equipo haya elegido la tecnología y aceptado el plan de arquitectura. Traduce los valores acordados a variables o estilos compartidos adecuados a esa tecnología. Reutiliza los componentes equivalentes; no introduzcas una biblioteca ni otra apariencia por costumbre.
 
-Comprueba el diseño en la primera pantalla que funcione y después en el flujo principal. Si se modifican colores, vuelve a medir las combinaciones afectadas. Revisa una ventana amplia y otra estrecha, el recorrido con Tab, el foco visible, las etiquetas y los estados de error y ausencia de datos. Sigue las pruebas concretas de la referencia según el reto.
+Comprueba el diseño en la primera pantalla que funcione y después en el flujo principal. Si se modifican colores, revisa de nuevo la legibilidad de los elementos afectados. Revisa una ventana amplia y otra estrecha, el recorrido con Tab, el foco visible, las etiquetas y los estados de error y ausencia de datos. Sigue las pruebas concretas de la referencia según el reto.
 
 Anota qué has observado y en qué pantalla. Si no tienes acceso al navegador, pide al equipo esas comprobaciones y distingue sus observaciones de las tuyas. No declares una revisión visual por haber leído el código. Corrige las diferencias con el diseño acordado antes de añadir adornos y consulta los cambios que alteren la identidad elegida.
