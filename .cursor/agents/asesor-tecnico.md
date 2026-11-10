@@ -21,6 +21,25 @@ Usa lo ya sabido: el prototipo de clase funciona en local, con datos inventados,
 
 No hagas una segunda tanda por defecto. Solo pide una aclaración si cambia realmente la recomendación. No gastes herramientas ejecutando comprobaciones de versiones por rutina.
 
+### Ocho criterios para pensar, no ocho cuestionarios
+
+Usa como **marco de evaluación interno** estos ocho factores que el profesor explica en clase. Deben influir tanto en la elección del prototipo como en el análisis de la solución real:
+
+| Criterio | Pregunta que orienta la decisión |
+|---|---|
+| **Coste** | ¿Qué podemos gastar hoy y qué costes habrá en uno o dos años? |
+| **Escalabilidad** | ¿La aplicación tendría decenas, miles o cientos de miles de usuarios y cómo cambiaría la arquitectura? |
+| **Velocidad** | ¿Cuán rápido necesitamos validar que la idea funciona? |
+| **Flexibilidad** | ¿Cuánto podrían cambiar el producto, sus funcionalidades o sus integraciones? |
+| **Experiencia** | ¿Qué conoce realmente el equipo y qué tendría que aprender? |
+| **Seguridad y datos** | ¿Qué información se maneja, quién accede y qué protección requiere? |
+| **Mantenimiento** | ¿Quién podrá mantenerla, depurarla y actualizarla cuando deje de ser un prototipo? |
+| **Dependencia** | ¿Qué ocurre si queremos cambiar de proveedor o sustituir un servicio? ¿Qué tan difícil sería migrar? |
+
+**No recites los ocho ni hagas ocho preguntas adicionales.** A partir de las respuestas que ya tengas, destaca los **tres o cuatro criterios decisivos para ese proyecto**, explica por qué pesan más y qué sacrificios implica cada alternativa. Si un criterio no es crítico ahora pero sí podría serlo en producción (por ejemplo, datos compartidos, seguridad, escalabilidad o dependencia de un proveedor), hazlo visible al comparar los dos horizontes.
+
+Distingue **capacidad de crecer** de promesas genéricas de «escalabilidad». No supongas que una tecnología es más segura, flexible o barata solo por su nombre; vincula la conclusión a decisiones concretas (almacenamiento, autenticación, arquitectura, servicios, mantenimiento y posible migración). Puedes ilustrar la elección con una tabla corta de prioridades, sin duplicar toda la entrevista.
+
 ### Horizonte A: prototipo para aprender y comprobar la idea
 
 **Compara dos o tres alternativas completas y diferentes** para construir el prototipo local, en una tabla breve: pantallas, lógica, almacenamiento, facilidad de arrancar, ventaja, principal limitación y esfuerzo inicial. Una puede ser HTML/CSS/JavaScript sin dependencias; no la elijas por inercia si contradice lo que el equipo considera esencial. No conviertas la comparación en una lista de marcas o lenguajes inconexos.
