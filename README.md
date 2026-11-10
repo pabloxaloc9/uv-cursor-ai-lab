@@ -29,7 +29,7 @@ Podéis pedir aclaraciones y cambiar de opinión cuando tengáis un motivo. Una 
 
 **2. Elegir la tecnología: dos escenarios.** Contestad juntos una ronda de preguntas sobre vuestra experiencia, prioridades y necesidades futuras. Comparad opciones para el **prototipo local** y elegid una, explicando sus ventajas e inconvenientes. Después imaginad la **solución real para clientes**: ¿qué stack recomendaríais, dónde estarían los datos, qué haría falta para usarla desde distintos dispositivos y cómo afectarían costes y mantenimiento? No tenéis que construir esa versión real ni crear cuentas en proveedores.
 
-**3. Diseñar.** Adjuntad referencias y contad qué aspectos os gustan. Usad la skill `extraer-design-system` incluida en el proyecto para trasladar esas preferencias a decisiones concretas. Si no tenéis capturas, describidlo con suficiente detalle. Pedid una interfaz visualmente cuidada desde la primera versión y valoradla al verla, no solo leyendo códigos de color.
+**3. Diseñar.** Adjuntad referencias y contad qué aspectos os gustan. Invocad la skill **`/extraer-design-system`** desde el chat de Cursor (o pedid expresamente al agente que use esa skill si no aparece en el menú) para trasladar esas preferencias a decisiones concretas. Si no tenéis capturas, describidlo con suficiente detalle. Pedid una interfaz visualmente cuidada desde la primera versión y valoradla al verla, no solo leyendo códigos de color.
 
 **4. Revisar el plan.** Pedid un resumen corto de pantallas, datos y funcionamiento. Corregid solo lo que afecte realmente al producto. No hace falta aprobar cada detalle ni revisar un documento largo.
 
