@@ -7,11 +7,11 @@ La IA os ayudará a comparar opciones y escribir código. **Vuestro trabajo cons
 ## Antes de la clase
 
 - Cread una cuenta en GitHub y otra en [Cursor](https://cursor.com). La modalidad gratuita es suficiente para empezar: no hace falta contratar un plan de pago.
-- Instalad Cursor en el portátil que traeréis a clase. No hace falta instalar Git manualmente antes de clase; comprobaremos lo necesario al preparar el proyecto.
+- Instalad Cursor en el portátil que traeréis a clase y preparad Git para poder clonar el repositorio desde GitHub. Si Git ya está instalado, no hace falta volver a instalarlo. El profesor comprobará la configuración antes de empezar. Python, Node u otras herramientas solo serán necesarias si el stack que elegís las requiere.
 - Podéis explorar la interfaz, pero **no utilicéis el agente para programar antes de la práctica**: las cuentas gratuitas tienen límites de uso.
 - Buscad dos capturas de webs o aplicaciones cuyo diseño os guste. Guardadlas para adjuntarlas en el ejercicio de diseño. Pensad qué os gusta de ellas. Si no tenéis capturas, podréis describir el estilo que buscáis.
 
-El profesor os indicará el repositorio de alumnos. Para empezar sin bloqueos podéis abrir **Code → Download ZIP**, descomprimir el proyecto y abrir esa carpeta en **Cursor → File → Open Folder**. Es importante abrir la carpeta completa, que contiene `.cursor/` con las reglas, agentes y skills. Si ya tenéis Git preparado, también podéis clonar el repositorio. **Para trabajar con la carpeta ZIP no hace falta instalar Git.** No es necesario traer una aplicación empezada.
+El profesor os indicará el repositorio de alumnos. **Plan A:** una persona por equipo lo clonará desde GitHub con **Clone Repository** en Cursor y abrirá la carpeta completa del proyecto, que contiene `.cursor/` con las reglas, agentes y skills. El profesor ayudará a comprobar Git y la conexión con GitHub. **Plan B si hay problemas técnicos:** abrir **Code → Download ZIP** en GitHub, descomprimir el archivo y abrir esa carpeta con **Cursor → File → Open Folder**. Esta alternativa permite trabajar sin clonar, pero no deja conectada automáticamente la carpeta al repositorio para subir cambios. No es necesario traer una aplicación empezada.
 
 ## Preparar Cursor y empezar
 
