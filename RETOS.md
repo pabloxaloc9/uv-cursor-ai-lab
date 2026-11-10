@@ -1,29 +1,29 @@
 # ¿Qué aplicación vais a construir?
 
-Podéis elegir entre estas dos ideas. En ambos casos, el primer paso será concretar quién usaría vuestra aplicación y para qué. También podéis darle otro nombre y elegir su aspecto.
+Elegid una de las dos ideas y adaptadla a un caso concreto que os interese. Los nombres y situaciones son ejemplos, **no datos obligatorios que debáis introducir ni pruebas que os obliguen a borrar vuestro trabajo**. Vuestro equipo decide el nombre, las personas y el aspecto.
 
-## BookFlow: organizar las reservas de un negocio
+## BookFlow: reservas para un negocio
 
-Imaginad un pequeño negocio que recibe sus reservas por mensajes. Su responsable tiene que consultar la agenda cada vez que alguien pregunta por una hora. A veces se equivoca y acepta dos reservas para la misma franja.
+Un pequeño negocio recibe reservas por mensajes y a veces acepta dos para la misma hora. Podéis plantearlo para una escuela de surf, un taller de cerámica, visitas guiadas u otro servicio.
 
-Vuestra aplicación le ayudará a organizarse. Podéis pensar en una escuela de surf, un taller de cerámica, una empresa de visitas guiadas u otro negocio que os interese.
+**La primera versión debe permitir:** consultar servicios y horarios disponibles, elegir una franja y reservarla; localizar y cancelar una reserva; y mostrar al negocio una agenda sencilla ordenada por días. Para un mismo servicio y una misma franja, solo cabe una reserva. Al cancelar, esa hora vuelve a quedar disponible. No hacen falta cuentas ni cobros.
 
-La primera versión debe permitir que una persona consulte los servicios y las horas disponibles, elija una franja y haga una reserva. Después debe poder consultar su reserva y cancelarla. El negocio tendrá una agenda sencilla con las reservas de cada fecha; basta con una lista ordenada por días.
+**Cómo probar vuestro propio caso:** inventad una reserva con vuestro servicio, día y hora. Intentad reservar otra vez exactamente esa franja para el mismo servicio: debe impedirlo. Recargad y comprobad que se conserva la primera reserva. Canceladla y verificad que la franja vuelve a estar disponible. Probad también a enviar un formulario incompleto. **No es necesario cambiar los nombres ni reiniciar los datos para hacer estas pruebas.**
 
-Para esta práctica, cada franja admite una sola reserva por servicio. Si alguien la cancela, esa hora vuelve a estar disponible. No hace falta crear cuentas de usuario ni cobrar las reservas.
+## Splitly: gastos compartidos
 
-**Cómo comprobar que funciona:** haced una reserva e intentad reservar de nuevo la misma franja. La aplicación debe impedirlo. Recargad la página y comprobad que la primera reserva sigue guardada. Después, canceladla y comprobad que esa hora vuelve a estar libre. Intentad también enviar el formulario sin rellenarlo.
+Varias personas hacen un viaje, comparten piso u organizan una actividad. Una paga la cena, otra el transporte y otra el alojamiento; quieren saber cuánto debe pagar o recibir cada una.
 
-## Splitly: repartir los gastos de un grupo
+**La primera versión debe permitir:** crear un grupo con participantes, añadir gastos con concepto, importe y persona que ha pagado; calcular los saldos y mostrar pagos propuestos para saldar las cuentas. No se transfiere dinero real. Trabajad con un grupo, en euros, y definid las personas antes del primer gasto.
 
-Imaginad que varias personas hacen un viaje juntas. Una paga la cena, otra compra los billetes y otra se encarga del alojamiento. Al terminar, necesitan saber cuánto debe pagar o recibir cada una.
+**Un detalle que importa:** las cuentas deben cuadrar hasta el último céntimo. Por ejemplo, 10 € entre tres personas se reparten como 3,34 €, 3,33 € y 3,33 €, no como tres importes de 3,33 €. Pedid a Cursor que os explique cómo trata ese céntimo.
 
-Vuestra aplicación les ayudará a repartir los gastos por igual. Podéis situar la idea en un viaje, un piso compartido o una actividad que organicen varias personas.
+**Cómo probar vuestro propio caso:** registrad varios gastos con los integrantes que habéis elegido. Calculad entre todos cuánto ha pagado cada uno y cuánto le correspondía; las cantidades a pagar y a recibir deben compensarse. Recargad y comprobad que los gastos siguen ahí. Intentad añadir un gasto negativo o vacío: debe rechazarlo.
 
-La primera versión debe permitir crear un grupo y añadir sus participantes. Después se podrán registrar los gastos, indicando qué se ha comprado, cuánto ha costado y quién ha pagado. La aplicación mostrará cuánto debe pagar o recibir cada persona y propondrá los pagos necesarios para saldar las cuentas. Solo mostrará las cantidades; no moverá dinero real.
+**Ejemplo opcional para comprobar cálculos, sin sustituir vuestro grupo:** Ana paga 30 € y Bruno 15 € en un grupo de tres personas con Carla. Cada uno debe asumir 15 €; por tanto, Carla paga 15 € a Ana y Bruno queda saldado. Este ejemplo se puede razonar en papel o utilizar en una prueba aislada; **no borréis los datos de vuestra aplicación para reproducirlo**.
 
-Para esta práctica, trabajaréis con un solo grupo, en euros y con los participantes elegidos antes de añadir el primer gasto. Las cuentas deben conservar todos los céntimos. Por ejemplo, 10 € entre tres personas se pueden repartir como 3,34 €, 3,33 € y 3,33 €. Pedid a Cursor que os explique cómo lo resuelve.
+## Para los dos retos
 
-**Cómo comprobar que funciona:** cread un grupo con Ana, Bruno y Carla. Añadid un gasto de 30 € pagado por Ana y otro de 15 € pagado por Bruno. La aplicación debe indicar que Carla tiene que pagar 15 € a Ana y que Bruno ya ha pagado su parte. Recargad la página y comprobad que los datos siguen ahí. Intentad también añadir un gasto negativo: la aplicación debe rechazarlo.
+Prioridad: terminar el recorrido principal y probarlo antes de añadir extras. Si queréis sincronizar varios móviles, publicar la aplicación, crear cuentas o integrar pagos, anotadlo como una mejora futura y preguntad qué implicaría: no es obligatorio para el prototipo local.
 
-En cualquiera de los dos retos, terminad estas funciones antes de añadir otras. Utilizad datos inventados en todas las pruebas.
+Usad datos inventados. Ningún resultado está «probado» solo porque Cursor lo afirme: comprobadlo vosotros en la aplicación.
